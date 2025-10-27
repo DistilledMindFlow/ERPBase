@@ -18,6 +18,7 @@ import json, uuid, os
 from .utils import get_db, build_prompt, stream_model, save_qa
 
 
+
 def login_page(request):
     if request.user.is_authenticated:
         if request.user.user_type == '1':
